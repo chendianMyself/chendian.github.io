@@ -1,19 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home</title>
+		<title>details</title>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link href="css/owl.carousel.css" rel='stylesheet' type='text/css' />
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		</head>
 	<body>
 		<!-- container -->
-		<div class="header">
+		<div class="header top-header">
 		<div class="container">
 			<!-- header -->
 				<!-- logo -->
@@ -47,76 +46,8 @@
 			</div>
 			<!-- header -->
 		</div>
-		<!-- banner -->
-		<div class="banner">
-			<!-- slider -->
-				<!--- img-slider --->
-				<div class="img-slider">
-						<!----start-slider-script---->
-					<script src="js/responsiveslides.min.js"></script>
-					 <script>
-					    // You can also use "$(window).load(function() {"
-					    $(function () {
-					      // Slideshow 4
-					      $("#slider4").responsiveSlides({
-					        auto: true,
-					        pager: true,
-					        nav: true,
-					        speed: 500,
-					        namespace: "callbacks",
-					        before: function () {
-					          $('.events').append("<li>before event fired.</li>");
-					        },
-					        after: function () {
-					          $('.events').append("<li>after event fired.</li>");
-					        }
-					      });
-					
-					    });
-					  </script>
-					<!----//End-slider-script---->
-					<!-- Slideshow 4 -->
-					    <div  id="top" class="callbacks_container">
-					      <ul class="rslides" id="slider4">
-					        <li>
-					          <img class="img-responsive" src="images/slide1.jpg" alt="">
-					          <div class="slider-caption">
-					          	<div class="slider-caption-inner">
-						          	 <h1>music<span>Z</span></h1>
-						         	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin lectus in quam elementum aliquet. Quisque gravida fringilla velit nec ornare. </p>
-						         	 <a class="caption-btn" href="#">ReadMore</a>
-					         	 </div>
-					          </div>
-					        </li>
-					        <li>
-					          <img src="images/slide3.jpg" alt="">
-					           <div class="slider-caption">
-					          	 <div class="slider-caption-inner">
-						          	 <h1>music<span>Z</span></h1>
-						         	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin lectus in quam elementum aliquet. Quisque gravida fringilla velit nec ornare. </p>
-						         	 <a class="caption-btn" href="#">ReadMore</a>
-					         	 </div>
-					          </div>
-					        </li>
-					        <li>
-					          <img src="images/slide1.jpg" alt="">
-					           <div class="slider-caption">
-					           <div class="slider-caption-inner">
-						          	 <h1>music<span>Z</span></h1>
-						         	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin lectus in quam elementum aliquet. Quisque gravida fringilla velit nec ornare. </p>
-						         	 <a class="caption-btn" href="#">ReadMore</a>
-					         	 </div>
-					          </div>
-					        </li>
-					      </ul>
-					    </div>
-					    <div class="clearfix"> </div>
-					</div>
-						<!-- slider -->
-		</div>
-		<!-- banner -->
 		<!-- categories -->
-		<div class="categories">
+		<div class="categories c-cate">
 			<div class="container">
 				<div class="categories-left">
 					<ul class="options">
@@ -144,123 +75,127 @@
 			</div>
 		</div>
 		<!-- categories -->
-		<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
 		<!-- content -->
 		<div class="content">
 			<div class="container">
 			<!-- content-left -->
 			<div class="col-md-8 content-left">
-				<div onclick="location.href='details.html';" class="artical">
-					<div class="col-md-4 artical-left">
-						<a href="#"><img src="images/post1.jpg" title="post-name" /></a>
-					</div>
-					<div class="col-md-8 artical-right">
-						<div class="artical-head">
-							<h2><a href="#">Lorem ipsum</a></h2>
-							<a href="#"><span class="rate"> </span></a>
-							<div class="clearfix"> </div>
+				<!-- artical-single-page -->
+				<div class="artical-details">
+					<h2><a href="#">Album title here</a></h2>
+					<!-- artical-details-info -->
+					<div class="artical-details-info">
+						<div class="artical-details-info-left">
+							<a href="#"><img src="images/post1.jpg" title="name" /></a>
+						</div>
+						<div class="artical-details-info-right">
+							<p><strong>Release Date:</strong> March 20, 2014,</p>
+							<p><strong>Reched:</strong> $250 million,</p>
+							<p><strong>Genre:</strong> pop,</p>
+							<p><strong>Country:</strong> UK,</p>
+							<p><strong>singer:</strong> adipiscing,</p>
+							<p><strong>casting:</strong> <a href="#">Donec,</a><a href="#">variu,</a><a href="#">mauris,</a><a href="#">sociis,</a></p>
+							<div class="dicription">
+								<p><strong>Description :</strong>Cras quis eros eget sem vestibulum malesuada ac nec lectus. Sed sodales ultricies varius. Nullam eu lorem ac justo vestibulum tincidunt. Vivamus id erat sit amet sapien vulputate faucibus sed quis ex.</p>
+							</div>
+							<a class="download" href="#">Download</a>
 						</div>
 						<div class="clearfix"> </div>
-						<!-- artical-info -->
-						<div class="artical-info">
-							<p><strong>Release Date:</strong>  March 20, 2014,</p>
-							<p><strong>Reched:</strong>$250 million</p>
-							<p><strong>Genre:</strong>pop</p>
-							<p><strong>Country:</strong>UK</p>
-							<p><strong>singer:</strong> adipiscing</p>
-							<p><strong>casting:</strong> <a href="#">Donec</a>,<a href="#">variu</a>,<a href="#">mauris</a>,<a href="#">sociis</a></p>
-						</div>
-						<!-- artical-info -->
+						
 					</div>
-					<div class="clearfix"> </div>
+					<!-- artical-details-info -->
 				</div>
-				<!-- artical-end -->
-				<div onclick="location.href='details.html';" class="artical">
-					<div class="col-md-4 artical-left">
-						<a href="#"><img src="images/post2.jpg" title="post-name" /></a>
+				<!-- related-articals -->
+				<div class="related-articals">
+					<h2>Related albums</h2>
+					<!-- related-albums -->
+					<div class="related-albums">
+						  <script>
+							    $(document).ready(function() {
+							      $("#owl-demo1").owlCarousel({
+							        items : 3,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : true,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							</script>
+						<div id="owl-demo1" class="owl-carousel text-center">
+					         <div class="item">
+					              <div class="r-album">
+									<div class="r-album-pic">
+										<a href="#"><img src="images/post2.jpg" title="name" /></a>
+									</div>
+									<div class="r-album-info">
+										<p><strong>Release Date:</strong> March 20, 2014,</p>
+										<p><strong>Reched:</strong> $250 million,</p>
+										<p><strong>Genre:</strong> pop,</p>
+										<p><strong>Country:</strong> UK,</p>
+									</div>
+								 </div>
+					          </div>
+					           <div class="item">
+					              <div class="r-album">
+									<div class="r-album-pic">
+										<a href="#"><img src="images/post3.jpg" title="name" /></a>
+									</div>
+									<div class="r-album-info">
+										<p><strong>Release Date:</strong> March 20, 2014,</p>
+										<p><strong>Reched:</strong> $250 million,</p>
+										<p><strong>Genre:</strong> pop,</p>
+										<p><strong>Country:</strong> UK,</p>
+									</div>
+								 </div>
+					          </div>
+					           <div class="item">
+					              <div class="r-album">
+									<div class="r-album-pic">
+										<a href="#"><img src="images/post4.jpg" title="name" /></a>
+									</div>
+									<div class="r-album-info">
+										<p><strong>Release Date:</strong> March 20, 2014,</p>
+										<p><strong>Reched:</strong> $250 million,</p>
+										<p><strong>Genre:</strong> pop,</p>
+										<p><strong>Country:</strong> UK,</p>
+									</div>
+								 </div>
+					          </div>
+					           <div class="item">
+					              <div class="r-album">
+									<div class="r-album-pic">
+										<a href="#"><img src="images/post5.jpg" title="name" /></a>
+									</div>
+									<div class="r-album-info">
+										<p><strong>Release Date:</strong> March 20, 2014,</p>
+										<p><strong>Reched:</strong> $250 million,</p>
+										<p><strong>Genre:</strong> pop,</p>
+										<p><strong>Country:</strong> UK,</p>
+									</div>
+								 </div>
+					          </div>
+					           <div class="item">
+					              <div class="r-album">
+									<div class="r-album-pic">
+										<a href="#"><img src="images/post6.jpg" title="name" /></a>
+									</div>
+									<div class="r-album-info">
+										<p><strong>Release Date:</strong> March 20, 2014,</p>
+										<p><strong>Reched:</strong> $250 million,</p>
+										<p><strong>Genre:</strong> pop,</p>
+										<p><strong>Country:</strong> UK,</p>
+									</div>
+								 </div>
+					          </div>
+					   </div>
+						
 					</div>
-					<div class="col-md-8 artical-right">
-						<div class="artical-head">
-							<h2><a href="#">consectetur</a></h2>
-							<a href="#"><span class="rate"> </span></a>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="clearfix"> </div>
-						<!-- artical-info -->
-						<div class="artical-info">
-							<p><strong>Release Date:</strong>  March 20, 2014,</p>
-							<p><strong>Reched:</strong>$250 million</p>
-							<p><strong>Genre:</strong>pop</p>
-							<p><strong>Country:</strong>UK</p>
-							<p><strong>singer:</strong> adipiscing</p>
-							<p><strong>casting:</strong> <a href="#">Donec</a>,<a href="#">variu</a>,<a href="#">mauris</a>,<a href="#">sociis</a></p>
-						</div>
-						<!-- artical-info -->
-					</div>
-					<div class="clearfix"> </div>
+					<!-- related-albums -->
 				</div>
-				<!-- artical-end -->
-				<div onclick="location.href='details.html';" class="artical">
-					<div class="col-md-4 artical-left">
-						<a href="#"><img src="images/post3.jpg" title="post-name" /></a>
-					</div>
-					<div class="col-md-8 artical-right">
-						<div class="artical-head">
-							<h2><a href="#">adipiscing</a></h2>
-							<a href="#"><span class="rate"> </span></a>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="clearfix"> </div>
-						<!-- artical-info -->
-						<div class="artical-info">
-							<p><strong>Release Date:</strong>  March 20, 2014,</p>
-							<p><strong>Reched:</strong>$250 million</p>
-							<p><strong>Genre:</strong>pop</p>
-							<p><strong>Country:</strong>UK</p>
-							<p><strong>singer:</strong> adipiscing</p>
-							<p><strong>casting:</strong> <a href="#">Donec</a>,<a href="#">variu</a>,<a href="#">mauris</a>,<a href="#">sociis</a></p>
-						</div>
-						<!-- artical-info -->
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<!-- artical-end -->
-				<div onclick="location.href='details.html';" class="artical">
-					<div class="col-md-4 artical-left">
-						<a href="#"><img src="images/post4.jpg" title="post-name" /></a>
-					</div>
-					<div class="col-md-8 artical-right">
-						<div class="artical-head">
-							<h2><a href="#">Donec nec</a></h2>
-							<a href="#"><span class="rate"> </span></a>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="clearfix"> </div>
-						<!-- artical-info -->
-						<div class="artical-info">
-							<p><strong>Release Date:</strong>  March 20, 2014,</p>
-							<p><strong>Reched:</strong>$250 million</p>
-							<p><strong>Genre:</strong>pop</p>
-							<p><strong>Country:</strong>UK</p>
-							<p><strong>singer:</strong> adipiscing</p>
-							<p><strong>casting:</strong> <a href="#">Donec</a>,<a href="#">variu</a>,<a href="#">mauris</a>,<a href="#">sociis</a></p>
-						</div>
-						<!-- artical-info -->
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<!-- artical-end -->
+				<!-- related-articals -->
+				<!-- artical-single-page -->
 				<div class="clearfix"> </div>
-				<!-- pagenate -->
-				<div class="pagenate">
-					<ul>
-						<li class="page-active"><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li class="next"><a href="#">Next</a></li>
-					</ul>
-				</div>
-				<!-- pagenate -->
 			</div>
 			<!-- content-left -->
 			<!-- content-right -->
@@ -303,7 +238,7 @@
 			<!-- popular-allbums -->
 			<div class="popular-albums">
 				<h2>Popular albums</h2>
-				<div onclick="location.href='details.html';" class="popular-allbum">
+				<div class="popular-allbum">
 					<div class="popular-allbum-pic">
 						<a href="#"><img src="images/post6.jpg" title="name" /></a>
 					</div>
@@ -315,7 +250,7 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div onclick="location.href='details.html';" class="popular-allbum">
+				<div class="popular-allbum">
 					<div class="popular-allbum-pic">
 						<a href="#"><img src="images/post5.jpg" title="name" /></a>
 					</div>
@@ -327,7 +262,7 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div onclick="location.href='details.html';" class="popular-allbum">
+				<div class="popular-allbum">
 					<div class="popular-allbum-pic">
 						<a href="#"><img src="images/post4.jpg" title="name" /></a>
 					</div>
